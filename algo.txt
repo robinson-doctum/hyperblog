@@ -23,6 +23,10 @@ git show "nombre del archivo"
 
 git log "nombre del archivo"
     muestra los cambios del archivo
+
+git log --statu
+    muestra los cambios del archivos pero más especifico
+
 git diff
     muestra las modificaciones entre lo que se almaceno en la ram y en el disco duro
 
