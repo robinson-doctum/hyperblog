@@ -18,8 +18,14 @@ git config --list
 git commit -"mensaje"
     enviar el commit al repositorio, se concidera buena practica enviar el mensaje del commit
 
+git show "nombre del archivo"
+    muestra el historial de commit del archivo
+
 git log "nombre del archivo"
-    muestra el historia de modificaciones del archivo
+    muestra los cambios del archivo
+
+git diff "codigo de commit" "codigo de commit"
+    sirve para compara los cambios realizados entre dos commit, el codigo del commit se obtienes con el show
 
 para realizar un commit se veria seguir estos pasos
 1. ejecutar git add "nombre del archivo" , en el caso que se desea que se mande todos los archivos de las carpeta se puede ejecutar add . , el punto indicar que son todos los archivos
@@ -27,3 +33,4 @@ para realizar un commit se veria seguir estos pasos
 
 Observaciones
     deberia de fijarme en los espacio
+    para salir de (END) se teclea r o clr+z 
