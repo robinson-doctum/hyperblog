@@ -23,6 +23,8 @@ git show "nombre del archivo"
 
 git log "nombre del archivo"
     muestra los cambios del archivo
+git diff
+    muestra las modificaciones entre lo que se almaceno en la ram y en el disco duro
 
 git diff "codigo de commit" "codigo de commit"
     sirve para compara los cambios realizados entre dos commit, el codigo del commit se obtienes con el show
