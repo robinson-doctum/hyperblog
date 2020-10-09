@@ -44,5 +44,3 @@ Observaciones
     para salir de (END) se teclea r o clr+z 
 
 
-/****************************/
-Estos deberia borrar el cheackout
