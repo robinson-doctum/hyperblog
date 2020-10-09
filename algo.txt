@@ -1,1 +1,27 @@
-hola mundo
+Comando que he usado
+
+git add "nombre del archivo"
+    añade el al¡rchivo al commit, queda en el estado de espera ara ser enviado
+
+git rm "nombre del archivo"
+    elimina el archivo
+
+git status 
+    muestra el estado que se encuentra el archivo
+
+git config
+    ve la configuraciones globales
+
+git config --list 
+    muestra las configuraciones del git "user y demas"
+
+git commit -"mensaje"
+    enviar el commit al repositorio, se concidera buena practica enviar el mensaje del commit
+
+git log "nombre del archivo"
+    muestra el historia de modificaciones del archivo
+
+para realizar un commit se veria seguir estos pasos
+1. ejecutar git add "nombre del archivo" , en el caso que se desea que se mande todos los archivos de las carpeta se puede ejecutar add . , el punto indicar que son todos los archivos
+2. se ejecutar luego el git commit-me"el ensaqje es buena practica"
+
