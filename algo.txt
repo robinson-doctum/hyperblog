@@ -35,6 +35,11 @@ git diff "codigo de commit" "codigo de commit"
 
 git reset "codigo de commit" --soft "indica que el cambio va acurrir en el status" --hard "el cambio va ocurrir en el repositorio"
 
+Repasar o saber de memoria el concepto de ramas o branch
+
+git branch cabecera
+    es para crear una rama
+
 para realizar un commit se veria seguir estos pasos
 1. ejecutar git add "nombre del archivo" , en el caso que se desea que se mande todos los archivos de las carpeta se puede ejecutar add . , el punto indicar que son todos los archivos
 2. se ejecutar luego el git commit-me"el ensaqje es buena practica"
